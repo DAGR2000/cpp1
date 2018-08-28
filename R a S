@@ -1,0 +1,17 @@
+include <iostream>
+using namespace std;
+
+int main() {
+
+    float radian;
+    float resultado;
+    float PI=3.1416;
+
+    cin >> radian;
+
+    resultado= radian * 180/PI;
+
+    cout << resultado;
+
+    return 0;
+}
